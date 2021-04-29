@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px ;
+	padding: 0px ;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; 
+	font-size: 13px ;
+	color:black;
+		background-color: gray;
+}
+#page
+{position: relative;
+width: 900px;
+margin: 0px auto;
+height: auto;
+overflow:hidden;
+background-color: crimson
+}
+
+#header
+{height:111px;
+padding:1em;
+color: white;
+background-color: black
+}
+
+#header h1
+{positon:relative;
+left:30px;
+top:20px;
+color:white;
+text-align:left;
+font-width:bold;
+	font-size: 30px;
+}
+#header h2
+{positon:absolute;
+right:20px;
+top:70px;
+color:white;
+font-size: 20px;
+font-width:bold;
+}
+#nav
+{height:55px;
+line-height:55px;
+padding:0 20px;
+background-color:white;
+}
+
+#nav .link 
+{float:left;
+margin-left: 27px;
+margin-right: 27px;
+}
+
+.link
+{font-size:14px;
+font-width:bold;
+color:black}
+
+.link:hover 
+{color:crimson;
+}
+
+#sidenav
+{float:left;
+width:100px;
+padding:1em;
+background:white;
+}
+
+#sidenav ul 
+{list-style-type:none;
+padding:0px;
+}
+#sidenav li 
+{margin:10px;
+}
+#sidenav a {
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+#footer
+{height:30px;
+padding-top:5px;
+background-color:black;
+text-align:center;
+font-size:10px;
+color:white
+}
+
+#main 
+{padding:1em;
+overflow:hidden;
+}
+
+.artcle 
+{width:700px;
+padding:10px 10px;
+overflow:hidden;
+}
+
